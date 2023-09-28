@@ -1,0 +1,245 @@
+I'd like to express my gratitude for your presence here today. It's essential to address a critical aspect that many founders find challenging and unpleasant: pitching your company.
+
+At Y Combinator, we aim to support founders by providing them with the advantages we wish we had when we were starting our own companies. The YC batch represents an incredible opportunity, as it comprises some of the most promising startups worldwide, each scouted meticulously.
+
+Being part of this batch means working alongside individuals you deeply respect and admire. Sharing a dinner table with them often sparks the motivation to enhance your own efforts. Our goal is to build YC into an enduring institution, unique and irreplaceable, based on our collective experiences.
+
+Now, let's discuss the art of pitching, a crucial skill for any startup founder. We've recently assisted over 200 companies in presenting their ideas to investors during Demo Day, an activity often fraught with anxiety and frustration.
+
+What's intriguing is that every founder can recall the investors who rejected them. This memory fuels a desire to prove them wrong, a special motivation that drives many founders. Today, I want to share with you the valuable insights we provide to YC companies to enhance their fundraising efforts, particularly when they're pre-product market fit.
+
+It's important to clarify that these tips are not geared towards raising series A funding, as most of you are likely in the pre-product market fit stage. My goal is to challenge some of the common fundraising advice you may have encountered and help you unlearn certain misconceptions.
+
+First and foremost, standing out requires clarity and simplicity. Having conducted over 2000 YC interviews, I've realized that if I can't understand what your company does, I can't support it. The primary barrier to understanding your company is often you, not external factors.
+
+Many founders mistakenly believe they must infuse their pitches with charisma, enthusiasm, and showmanship. However, the key to standing out is straightforward: be concise and easy to understand. I'll provide practical advice that may not sound flashy but has proven effective.
+
+While there are numerous elements to a pitch, these are the fundamental components: What does your company do? Who comprises your team? What's your traction? What unique insights do you possess? What's your market size? And, crucially, what are you seeking? This is the essence of a pitch.
+
+Now, let's dive into the first element: defining what your company does. You should be able to articulate this in just two sentences.
+
+
+In this presentation, I'd like to emphasize the importance of clarity and the need for providing specific examples when explaining your company's concept. To illustrate this, let's use Airbnb as a prime example.
+
+At its core, Airbnb empowers homeowners and apartment owners to rent out their properties online. This concise description captures the essence of what they do. They facilitate online payments and charge a 15% fee for each booking.
+
+However, the real magic happens when we delve into a tangible, real-world scenario. Imagine you're a waiter living in Washington DC in the year 2009 during the Obama inauguration when every hotel room in town is fully booked. In this situation, you have the opportunity to earn two, three, or even four thousand dollars by renting out your apartment.
+
+That sum can cover your rent for the next two to three months. All it takes is snapping a few photos of your space, creating a listing on Airbnb, and letting Airbnb manage the payment process. They'll find you a suitable guest, ensuring a seamless experience. This example is powerful because it's specific and relatable.
+
+What's important to note here is that we didn't provide a vague example. Vagueness is a common pitfall. Now, let's discuss some common mistakes people make when explaining their companies:
+
+Using Jargon with Investors: Often, founders explain their concepts in a way that customers might understand, but investors may not. Remember, investors and users may have different perspectives and levels of expertise. It's crucial to use simple language that investors can grasp.
+
+Pursuing 100% Accuracy: While accuracy is essential, it's equally vital to maintain clarity. You should aim for 80% accuracy with 100% clarity rather than 100% accuracy with only 50% clarity. The example provided for Airbnb wasn't bogged down with every detail but was still crystal clear.
+
+Failure to Illustrate the Problem and Solution: A common oversight is not effectively illustrating the problem and solution. In the Airbnb example, the problem was clearly outlined: a waiter struggling to make ends meet during a major event. The solution was equally clear: Airbnb helps them cover their rent.
+
+Ambiguous First Slide: Many founders miss the mark by leaving the first slide of their presentations vague. They might showcase a logo without a clear explanation of what the company does. It's crucial to ensure that investors understand your business from the very beginning. You can even ask for their comprehension or offer another example if needed.
+
+Now, let's move on to discussing your team. The purpose of the team slide is to introduce the individuals behind your company. Highlight their roles, significant achievements, and credentials. If possible, share how team members have personally experienced the problem your company aims to solve.
+
+For Airbnb, they could discuss their journey as struggling startup founders who faced challenges paying their own rent. This personal connection adds depth to the team's slide and reinforces the company's mission.
+
+In their initial attempt, they set up a website for a design conference and welcomed just three guests. The motive was clear: they needed to pay their rent. This initial endeavor laid the foundation for what would later become a revolutionary platform.
+
+A crucial element in presenting your team is incorporating your personal experiences into the narrative. When you can seamlessly weave how you've personally encountered the problem you're solving into the team slide, it adds an expert touch to your pitch.
+
+Now, let's explore some common missteps in this context:
+
+Lacking Titles: Investors need to understand the roles and responsibilities of your team members. If they can't discern who the CEO is or the specific roles within your team, it creates uncertainty.
+
+Overloading with Details: While it's essential to provide clarity, your team slide isn't the place for sharing your life story. Keep it concise and to the point unless the investor explicitly asks for more background information.
+
+Neglecting Specific Accomplishments: Don't miss out on highlighting specific accomplishments. For instance, there's a company in our current batch with a team member who worked on the Mars rover project. Yet, this impressive detail was initially left out of their pitch. Share these standout achievements without delving into the entire life story.
+
+Moving on to the topic of traction, it's crucial to clarify the concept. Traction isn't solely about numbers; it's about conveying what you've achieved since launching your startup. A graph is useful only if it shows consistent growth. Remember, traction communicates your progress and why it's noteworthy. For example, if your iOS app has reached the hands of 100 users within a month, that's an accomplishment, even if they aren't active users. On the flip side, if it's taken two years to reach the same milestone, it's not as impressive.
+
+Investors are looking for momentum. They want to see that you can efficiently accomplish tasks. Including the timeframe is crucial; otherwise, the impact of your achievements is diluted. Omitting the time element leaves an incomplete picture.
+
+Here's a crucial point: you don't need a traction slide if you don't have significant traction. Presenting a weak or fabricated traction slide can damage your credibility. If your startup is in its early stages, it's perfectly fine not to include a traction slide.
+
+Now, let's touch on advisors. Be wary of including advisors who don't genuinely contribute to your company's growth. Avoid listing names merely for show; it's not productive.
+
+Lastly, let's delve into unique insights. This is where you share the non-obvious lessons you've learned about the problem, the customer, or potential solutions. It's a fascinating aspect of your pitch, but remember, you earn the right to discuss unique insights only if the investor already understands your company and is impressed by your team.
+
+As an illustrative example, consider Airbnb. One of their unique insights was that previous platforms failed to process payments effectively in low-trust environments. This insight played a pivotal role in their success.
+
+To sum up, remember that effective pitching is about clarity, relevance, and demonstrating your ability to execute swiftly. Each aspect of your pitch should contribute to building trust and conveying your startup's potential.
+
+Let's delve into unique insights, a fascinating aspect of your pitch. It's crucial, however, to ensure that your unique insight is, indeed, unique. Often, founders share insights that aren't truly distinct—many people would readily agree with them. If your insight doesn't stand out, it loses its impact.
+
+Another common pitfall is lacking specificity when explaining your insights. You have an opportunity to illustrate your point with a story, offering a tangible context for your unique perspective. For instance, Brian could recount how he stumbled upon this insight during a South by Southwest trip. His platform lacked a payment system, leading to an awkward situation with a host who suspected foul play. Real-life anecdotes like these make your insights more relatable and memorable.
+
+Moreover, numbers and facts are your allies, especially when discussing insights derived from user interactions. Quantify your claims with data and concrete figures. This not only adds credibility but also conveys a deeper understanding of your users' behavior and needs.
+
+Now, let's shift our focus to Market size—a topic that many founders find challenging. It's not just about citing a colossal number; it's about how you arrive at that number. As an investor, I need you to educate me on the potential user base, pricing strategies, and the value you bring to customers.
+
+You should conduct thorough research to support your claims. I don't know how many users you could potentially acquire, how much you plan to charge them, or the reasons behind your pricing decisions. Show me the Bottoms Up calculation—break down the number of users, the pricing structure, and why it makes sense. When you educate me in this manner, you're demonstrating your expertise, which is crucial in attracting investors.
+
+Avoid the trap of simply quoting reports or industry statistics without context. Saying something like "JPMorgan reported a $120 trillion e-commerce Market growing by 20%" doesn't provide any meaningful insight. Show me the math behind your market calculations. Break it down into understandable components.
+
+Lastly, consider comparative products. If you're competing with established solutions, tell me. Explain how your pricing stacks up against theirs. It's perfectly fine to charge more if you're delivering greater value, but justify that price differential. I want to understand why your product is priced the way it is.
+
+Now, let's discuss the "ask." This is where your pitch culminates in a crucial request—for funding. Surprisingly, many founders forget to explicitly ask for money in their pitches. In fact, around 70% of pitches conclude without this critical ask.
+
+Put yourself in an investor's shoes for a moment. There are three common mindsets investors may have when listening to your pitch:
+
+They'll never fund your company.
+They're genuinely excited about your company and will definitely fund it (though this is rare).
+They might fund your company, but they're uncomfortable saying no, so they say yes instead.
+The last category is particularly intriguing. Investors occasionally hope that founders won't ask for money because they feel compelled to say yes to avoid an uncomfortable rejection. This scenario can happen up to 10% of the time.
+
+So, don't forget to ask for funding in your pitch. It's the crucial bridge between your pitch and securing the resources you need. Don't let it slip away.
+
+To secure funding, you need to be direct and unhesitant in your request. You must put investors on the spot, and this principle holds especially true for angel investors. You've got to ask for what you need—boldly.
+
+So, what are the common errors in this crucial ask? Well, it's surprisingly simple. First and foremost, it's about not asking in the right way. Many founders miss the mark by not framing their request effectively. They forget to highlight social proof, such as who has already invested and how much capital they've raised.
+
+Moreover, some founders make the mistake of discussing who they intend to hire on the ask slide. The truth is, investors are more interested in what you plan to achieve with the funds rather than the specifics of your hiring plans. Hiring is just a means to an end—the end being revenue and product usage milestones.
+
+So, your ask slide should clearly state the amount of money you're seeking and the milestones you aim to achieve within a specified timeframe, like the next 18 or 24 months. Importantly, set a goal that would genuinely excite potential investors.
+
+Now, let's address the overall structure of your pitch. One of the common missteps is failing to order your points from most to least impressive. While there is some flexibility in pitch formatting, the key is to put your most compelling points early in your presentation. Don't save the best for last. Investors' attention spans are limited, especially in virtual meetings, where distractions are a click away.
+
+Think of it this way: you earn every two minutes of an investor's time, and if the last two minutes are underwhelming, they might be checking their emails instead of writing you a check. So, prioritize your strongest points early on.
+
+Furthermore, it's crucial to understand that your pitch shouldn't resemble a book report or a one-sided lecture. Instead, aim to engage your audience in a conversation. Converting a pitch into a dynamic dialogue can be challenging, but it's far more effective.
+
+Investors aren't just passive listeners; they're actively convincing themselves to invest during your presentation. The more they can talk and engage, the more they become invested in your idea. Salespeople use a similar technique, ensuring customers talk more than they do to increase the likelihood of a sale.
+
+So, whenever you notice a peak of interest from an investor, seize that opportunity. Encourage discussion, ask questions, and make it interactive. Don't rigidly stick to a predetermined order. If an investor expresses enthusiasm about a specific aspect of your presentation, dive into that topic. Get them talking, and they might talk themselves into investing.
+
+In summary, your pitch is not a monologue but an opportunity to engage your audience actively. By asking confidently, prioritizing your strongest points early, and fostering conversation, you can significantly enhance your chances of securing the funding you need.
+
+One of the crucial aspects often overlooked in pitching is engagement. You see, unlike traditional educational settings, where interaction is encouraged, pitching tends to be one-sided, with the presenter doing all the talking. The result? An audience that's passive, often unengaged.
+
+Furthermore, in the digital age, many pitches take place over Zoom or similar platforms. This means investors are staring directly into your face, offering an excellent opportunity to gauge their interest. You can read their expressions and determine whether they're genuinely engaged in what you're saying.
+
+Think of it this way: just as you can't be an effective poker player if you're fixated on your own hand, your pitch can't succeed if you're not attentive to your audience. Investors are not poker players hiding their tells behind sunglasses and headphones; their faces reveal their reactions openly.
+
+For instance, if you notice an investor leaning in, nodding, or asking questions, those are positive signs of engagement. Conversely, if they're distracted or disinterested, it's a clear signal that something isn't connecting.
+
+Now, let's discuss the design of your pitch slides. It might seem tempting to create visually captivating slides to impress your audience, but this can be counterproductive. Why? Because captivating slides can divert the audience's attention away from you, the presenter. Your objective is to maintain their focus on what you're saying, not on the background image of your slides.
+
+Consider this: if your slides are too visually stimulating, they may overshadow the content and shift the viewer's attention to aesthetics rather than substance. In essence, it's like having a designer take the reins of your pitch, emphasizing elements that might not align with your key messages.
+
+Remember, your business and your pitch's most critical points are best understood by you, not a designer. While a designer might create visually striking slides, they might not emphasize the right aspects. A clear and concise presentation will trump a visually stunning one every time.
+
+So, opt for visually plain, even "boring" slides to ensure your audience remains engaged with you and your message, not distracted by flashy visuals.
+
+Now, let's put these principles into practice with a live pitch demonstration. Here's a condensed version:
+
+"What do we do? We're a startup accelerator, providing $500,000 in funding to early-stage startups. Our track record speaks for itself, with investments in successful tech giants like Stripe, Airbnb, Dropbox, Coinbase, Instacart, and DoorDash.
+
+For example, when I participated in YC, my team and I started a company called Twitch. We were just 23 and 22 years old when we applied online, got an interview, secured funding after a 10-minute discussion, and entered a three-month program. Within three months, we had money, a supportive network, and newfound productivity.
+
+In terms of traction, YC has funded approximately 75 companies generating over $100 million in revenue—an impressive stat.
+
+Our team at YC includes individuals who have experienced every facet of startup life, from founding to funding, hiring, and firing. They've been through it all and can provide valuable insights to maximize your YC experience.
+
+And speaking of unique insights, YC offers three essential ones: the power of a simple application process, batch dynamics that foster mutual support, and the art of running a fundraising auction at Demo Day to secure the best deals.
+
+So, remember these principles: engage your audience, avoid distracting slides, and keep your pitch focused and effective."
+
+Michael: "Now, let's delve into three unique insights."
+
+Market Size: "Since YC started, there have been about 40+ tech IPOs backed by VCs each year, generating approximately $10 billion in returns annually."
+
+Michael: "Ask... that's the YC pitch. Not much sizzle, just clear and concise."
+
+Audience Applause
+
+Michael: "Alright, we have some time for questions. Let's dive into them."
+
+Question 1: "Hi Michael, thank you for the valuable insights you've shared. I work at a Brazilian startup accelerator called WOE, and I've been in this industry for a decade. YC is a major benchmark for us. We often invest in pre-product market Brazilian startups. What advice do you have for someone like me who's been working in this industry for so long and wants to help startups achieve product-market fit and raise funds?"
+
+Michael: "Thank you very much for your question. I'm not the best at giving advice to investors, but I can offer two pieces of advice that I often hear from founders. First, 'Do no harm.' Many times, I'm shocked at how often I have to say, 'I might know the answer, but I'm not sure.' Giving a wrong answer is often worse than asking the founder to talk to their users. Second, 'Your product is your process.' If taking money from you is painful, that's not a good sign. Good luck!"
+
+Question 2: "Hi Michael, congratulations on the excellent work YC is doing for startup founders and the ecosystem as a whole. My question is about a cohort that's less represented at YC, specifically industry veterans with 15-20 years of experience. They have genuine problems that not many startups can solve, but they haven't considered entering Y Combinator. What advice do you have for such industry veterans who are contemplating but haven't taken the plunge?"
+
+Michael: "I used to think my job was to convince people to do startups, and I spent years trying to do that. But I've come to realize that doing a startup is challenging, even a bit 'broken' in the head. Startup founders often do it because living in the real world can be painful for them. So, my job is to say, 'If those really good things about a regular job sound horrible to you, welcome to a community of people who will help you through the challenges.' But if those good things sound good to you, go for them—they are objectively good. My job is to find those people who'd rather be doing a startup than anything else."
+
+Question 3: "Hi Michael, thank you for your presentation. I run 'After Work,' where we make corporate events easy to plan. My question is, when talking to an investor, do you recommend using a deck or pitching more freely, like what you did today?"
+
+Michael: "Great question. I often tell YC founders that it depends on your level of experience. For instance, my co-founder, Justin Khan, pitched Atrium and didn't need a deck. He could convey everything effectively without one. However, for most people, especially if you're just starting out, having a well-structured deck can be incredibly helpful. It ensures you cover all the necessary points and helps guide the conversation. So, tailor your approach to your own comfort and experience level."
+
+Michael: "I've seen some founders who can talk for an hour about legal startup stuff, and it's great. When they do that, they usually have a lot of experience. For instance, when my co-founder did that, he was around 36 or 37 years old, and he was quite experienced. However, when I talk to first-time founders in YC, they often don't have that skill. They struggle to run a conversation where they ensure they're hitting their best points and bringing the discussion back to those core points. A deck is like a visual aid that helps with this. So, there isn't a one-size-fits-all answer. It depends on your capabilities. Less skilled pitchers find a deck incredibly helpful. But remember, being a skillful pitcher isn't the top skill you need to be a successful founder. So, use the tools that help you get the job done."
+
+Audience Member 1: "Hi Michael, I have a simple question. Isn't mentioning the competition important?"
+
+Michael: "Thank you for asking that. You'll encounter various questions from investors, and getting their engagement is great. My advice is to use an appendix for that. If you're asked the same question multiple times, and you believe a slide could help answer it, include it in an appendix. Investors are unique individuals with different questions, and not everything should be in your main presentation. However, I'll note that in YC applications, the question of who your competitors are rarely matters much to me. What I'm trying to assess is whether there's a massive incumbent. Interestingly, the presence of a huge incumbent makes me more likely to fund a company because taking market share from a weak incumbent can be easier than creating a market from scratch. Most successful products didn't invent their markets; they entered and disrupted. So, I'm not too concerned about listing competing logos unless it's a common question you face; then, use an appendix."
+
+Audience Member 2: "Hey Michael, glad to meet you. We're building a platform to simplify infrastructure operations. My question is, many companies switch from open-source licenses. Given the market economy for DevOps or any Dev tools, what metrics or traction should we focus on—revenue or open-source community metrics?"
+
+Michael: "Thank you for your question. I'm going to answer it a bit differently than you might expect. Many founders often look at what incumbents are doing today and wonder what it means for them. However, I find it more useful to look back at how these incumbents achieved their first million and ten million dollars in revenue. Copying their strategies from that early stage can often yield better results than copying their current go-to-market strategies. Large incumbents have typically exploited one strategy, or they have opened up strategies only available to them due to their size and reputation. So, I'd suggest studying your big incumbents when they were small and figuring out what they did on their path to 10 million in revenue. That should provide you with better insights."
+
+Michael: "I don't think they made a lot of revenue early on. So maybe you don't have to. This is also a great point for your pitch. If an investor questions why you're not doing something specific, you can respond by saying, 'Well, on their path to the first million in revenue, this is what HashiCorp did, and we're copying that strategy.' It's a way to educate the investor and make yourself sound knowledgeable."
+
+Audience Member 1: "Hi Michael, I'm 23 years old, around the same age you were when you started Justin TV. I'm embarking on my entrepreneurial journey with a limited technical background, but I have an idea to help people. What advice would you give to your 23-year-old self when you started?"
+
+Michael: "Starting a startup journey is tough, and I began with three technical co-founders. I also had a co-founder, Justin, who wanted to be a celebrity. It was challenging, even with YC funding. Sometimes, we don't talk enough about the advantages we had when we started. My advice to you would be to try to get some of those advantages. This journey is hard, even with advantages, so it's crucial to set yourself up for success."
+
+Audience Member 2: "Hi Michael, we're building an instant Meetup platform, and we're dealing with policy and legal compliance concerns. We're pre-launch, planning to launch in September. Should we prioritize building the product or focus on compliance issues?"
+
+Michael: "I'd suggest focusing on things that your actual customers are complaining about. In the early stages, concentrate on addressing issues that your customers encounter. Basic legal compliance should be covered, but for more complex matters, wait until customers raise them."
+
+Audience Member 3: "Hi, I'm Leroy Lawrence, and I'm the founder of Pidgey. We send travel shopping home from anywhere in the world. My question is, aside from big logos or university credentials, what signs do you look for in a founder that make you believe they can execute their plan?"
+
+Michael: "If I set aside credentials, one sign I look for is whether the founder consistently amazes me with what they've accomplished in a month. The ability to consistently achieve significant milestones in a short timeframe is a strong indicator of a capable founder."
+
+Michael: "When evaluating startup teams, it's not just about where they went to school, or if they can write code. It's about their ability to get more done per month than their peers, and not just theoretical work like pitching investors or running surveys. It's about tangible results, like generating actual sales and the innovative approaches used to achieve them. If you can tell me about something you accomplished in the last month that makes me think, 'I couldn't have done that,' that's genuinely impressive."
+
+Audience Member 1: "Thank you for the insights. Could you elaborate on what factors you consider when assessing a founder's ability to execute their plan?"
+
+Michael: "Absolutely. One crucial factor is their ability to consistently amaze with their accomplishments in a short timeframe. It's about achieving significant milestones that leave me astounded. That's a clear sign of a capable founder."
+
+Mary: "Hello everyone, we're here today to present Bessemer's annual 'State of the Cloud' report. I'm Mary Dinofrio, joined by my colleagues Janelle Tang and Katie Ray. Janelle will discuss the macro impacts on public cloud software, how public cloud companies are focusing on profitability and efficiency. Katie will delve into operational tactics based on these lessons. Finally, I'll touch on AI trends. But before we dive in, let's review the past year."
+
+Janelle: "The past year has been turbulent for cloud founders and companies. Many faced challenges as the market took a hit. Market multiples dropped, and there was a platform shift to AI. Despite the challenges, the IPO window seems to be reopening. We'll explore what this means for cloud companies."
+
+Janelle: "In 2022, cloud stocks experienced a significant downturn, which we termed the 'Sassacre.' The BVP cloud index fell over 50%, surpassing broader market indices. This was largely due to a rapid increase in interest rates. Valuation multiples declined, even below pre-pandemic averages. Cloud companies faced hurdles like longer sales cycles and tighter budgets."
+
+Janelle: "On the IPO front, 2022 marked a sharp contrast to the frenzy of 2021. IPOs came to a halt. Mergers and acquisitions slowed but remained robust. Private equity-sponsored deals saw a record year. Despite the challenges, cloud companies have been resilient, adapting to changing market conditions."
+
+Speaker 1: "In 2022, there were significant private transactions. On the strategic side, we witnessed several blockbuster acquisitions. The most notable one was Adobe's announcement of its acquisition of Figma, setting a record for the highest valuation multiple in the acquisition of any large-scale software company. Although this deal has yet to close, it highlights that best-in-class cloud companies can command a valuation premium even in challenging times. 2022 was indeed a gloomy year for the cloud, but it seems that 2023 might bring better days. Year-to-date, the BVP cloud index has already surged by over 25%, suggesting a glimmer of hope. The uncertainty in 2022 stemmed largely from changing macroeconomic conditions, particularly interest rate hikes by the Federal Reserve. In 2023, there's been more stability in these areas. Inflation is slowing, and the CBOE volatility index has shown healthier trends. Although we're still far from the high valuation multiples of 2021, we're seeing a return to normalized levels, aligning with long-term pre-pandemic averages. Consequently, the IPO window is showing signs of life. Recently, marketing automation leader Klaviyo filed its S1, marking the first pure-play SaaS company to go public after nearly a two-year drought in SaaS IPOs. We believe that top private cloud companies will soon follow suit. On the M&A front, many trends from 2022 have continued into 2023. Take-private transactions remain prevalent, and there have been significant acquisitions, such as Databricks' acquisition of Mosaic ML for $1.3 billion, emphasizing the growing importance of AI in M&A strategies. At Bessemer, we firmly believe that the cloud business model, with its recurring revenue, low distribution costs, and strong net dollar retention, is possibly one of the best and most resilient models ever created. Even in the face of one of the cloud economy's toughest years, companies have adapted and shown resilience by shifting from the Age of Excess to an age of efficiency. Cloud companies have pivoted their focus from pursuing growth at all costs to driving profitability. This shift is evident in the data. The top 10 highest-valued BVP Cloud Index companies now boast an average of 14% free cash flow margin, doubling what the same cohort achieved just a year ago. Market sentiment has responded to this paradigm shift. During the peak of the bull market in 2021, a 1% improvement in revenue growth had the same impact on valuations as a 6% improvement in free cash flow margin. Today, this ratio has shifted closer to 2:1, favoring growth but in a more balanced manner. A 1% improvement in revenue growth now has the same impact as a 2% improvement in free cash flow margin."
+
+Speaker 2: "Now, let's discuss how these changes in the public market have influenced private cloud companies. We'll use the Cloud 100 as a proxy, which represents the 100 best private cloud companies globally. For the first time this year, the aggregate value of the Cloud 100 decreased by 11% compared to the previous year."
+
+Speaker 1: "While the total valuation of private cloud companies remains impressive, it's crucial to acknowledge that macroeconomic conditions have impacted even the top performers. Similar to their public counterparts, Cloud 100 companies are shifting their focus towards efficiency. By the end of 2023, 23% of these companies are projected to be profitable, with two-thirds aiming for profitability by the end of 2024. Remarkably, even among the companies still operating at a loss, 60% are substantially reducing their burn rates, while only 7% are increasing them. This marks a significant shift from the growth-at-all-costs mindset that prevailed in 2020 and 2021. The rationale behind these adjustments lies in several factors: declining growth rates due to macroeconomic influences, softening purchasing power, extended sales cycles, and other market dynamics. In 2022, the average growth rate for Cloud 100 businesses stood at 100%, dropping to 55% this year. By prioritizing operational efficiency and appropriately managing profit and loss (P&L) statements, companies can prevent projected revenue discrepancies from translating into increased burn rates and reduced runway. Furthermore, market multiples have decreased, with the average Cloud 100 multiple declining from 34 times in 2021 to 26 times in 2023. Although not as dramatic as the drop in growth-adjusted public Cloud multiples, this trend indicates that cloud companies can't command the same high multiples they once did. By right-sizing their P&Ls and focusing on efficiency and operational leverage, companies can choose when to raise capital strategically based on strong fundamentals, rather than out of necessity to fund their operations. Now, let's explore how you can achieve efficiency and leverage in your business. I'll hand it over to my colleague, Katie."
+
+Speaker 2: "Thank you, Mary and Janelle, for that comprehensive market overview. Now, the key question for many cloud founders is not just understanding the need to transition to profitable and efficient growth but also how to execute that transition effectively. While the concept may be clear, the practical steps to optimize your P&L can be challenging. We've engaged with a wide range of public and private cloud companies, including those in the Bessemer portfolio, to understand the tactics they've used to shift from a growth-at-all-costs model to efficient growth. We've categorized these tactics into major areas of the P&L: Cost of Goods Sold (COGS) and gross margin, Operating Expenses (OpEx) including Sales and Marketing, General and Administrative (G&A), and Research and Development (R&D), and People and Pricing and Packaging. In the following sections, I'll present a case study for each of these areas, highlighting how Bessemer portfolio companies have successfully applied these tactics."
+
+Speaker: "Stengrid optimized their Cloud hosting costs, and there's an emerging ecosystem of Cloud cost management providers like Cloud Zero and Cube Cost that can help audit your Cloud footprint for efficiencies.
+
+Now, let's dive into the major categories of operating expenses (OpEx). Sales and marketing typically represent around 30% to 40% of a Cloud company's revenue. Consider Gloss Genius, a vertical SaaS and payments company in our portfolio. They initially experienced organic growth driven by satisfied users. However, as they scaled, they realized the need to incorporate inorganic channels for growth. Gloss Genius established a North Star Benchmark by channel, a CAC payback of under 8 months and a 3x LTV to CAC ratio. They audited their channels, reallocating resources from underperforming ones to overperforming ones. Cloud founders should determine their own hurdle rates for channels and conduct similar audits.
+
+Next is General and Administrative (G&A), which typically accounts for 10% to 15% of revenue. While it's often overlooked for optimizations, G&A presents opportunities. For instance, consider examining your real estate footprint in the era of remote work or automating back-office functions. Capmo, a construction management software company, audited their SaaS sprawl and found efficiencies. They also collaborated with a company like Vertice to negotiate favorable contract terms, resulting in significant cost reductions.
+
+Now, let's talk about Research and Development (R&D). Optimizing R&D is challenging because it can affect long-term competitive advantage. Companies like Jellyfish and All Stacks can help assess engineering productivity and provide benchmarking insights. You can also prioritize R&D projects based on perceived ROI, cutting the lowest-performing ones and reallocating resources to higher ROI initiatives."
+
+Speaker: "A particularly interesting way to drive efficiency in R&D and other internal functions is through the rise of Low-Code Machine Learning Systems (LLMS). They've proven effective in generating code and increasing productivity, especially in engineering. At Bessemer, we have a four-step framework for leveraging LLMS, both externally for product innovation and internally for efficiency improvements as we transition to more efficient growth. Now, I'll hand it over to Mary to provide examples of how Cloud 100 companies are using AI and LLMS for external product innovation.
+
+When considering AI and optimizing R&D efficiency, it's crucial to learn from the best companies' practices. Cloud 100 companies have embraced AI technologies rapidly. In just eight months, 55% of them have launched generative AI products or features, with 70% incorporating AI/ML in their products. These companies have shown that leveraging new technologies for differentiated product experiences is the path to success.
+
+There are three key strategies Cloud 100 companies have employed: embedded AI, acquired AI, and native AI. Embedded AI involves using external AI tools to enhance existing products. Cloudinary, for example, employed generative AI to expand its platform's usability for non-technical users. Acquired AI is exemplified by Databricks' acquisition of Mosaic ML, enabling customers to deploy AI models seamlessly. Finally, AI-native companies, like DeepL, have AI at their core from inception, offering real-time, AI-powered language translation with high accuracy rates.
+
+We mentioned some examples, including Cloudinary, Databricks, and DeepL, but there are many more like Zapier, Intercom, Canva, and others. To follow suit, think about embedding AI strategically across your applications, product workflows, and cross-product workflows to drive operational leverage and R&D efficiency.
+
+The AI landscape is broad, with tools available at different layers, from app-layer companies like Bridge and AI to foundational models like OpenAI. Innovation cycles are getting faster. Now, I'll pass it back to Katie to wrap things up."
+
+Speaker: "Thank you for joining us today. For more information on our research or any other topics, visit us at bvp.com or scan the QR code. In summary..."
+
+Speaker: "Despite the turbulent last few years in the cloud ecosystem, it's now showing early signs of recovery. As Janelle mentioned, we have companies like Clavio and others testing the public market waters, signaling a return to normalization. However, the paradigm shift in how investors value companies for efficient growth, rather than growth at all costs, presents a significant opportunity for cloud Founders. You can build durable businesses by leveraging the tactics we discussed to optimize your P&L. The goal is to become a 'Rule of 40' company, and we encourage you to explore your P&L for potential pathways to achieve that. In the long run, we believe that efficient growth tactics and AI can drive both efficiency and innovation.
+
+We appreciate your presence here today. We understand that you have businesses to build, and we're excited to support the next generation of great Cloud Founders. We're happy to take any questions on the case studies we presented, efficient growth strategies, AI, or any other topic we covered today. Thank you very much [Applause]. I believe there are microphones in the middle of the room, so please feel free to queue up, and we'll be happy to take your questions.
+
+Perfect, we'll give people a minute to move over. Hi there, my name is Peter Cowan. I'm with Sutton Capital Partners. Thank you for the presentation; it was very insightful. Our question is, Bessemer has a great reputation, obviously. Are you open to looking at companies in the generative AI space that are generating up to a million dollars in revenue, or are you primarily interested in companies with larger revenue figures?"
+
+Speaker: "Thank you so much for the question. I'll let Mary address that. We're more than happy to consider companies in the generative AI space with up to a million dollars in ARR (Annual Recurring Revenue). Our partnership spans 10 global offices, and we have 20 investing partners. We cover everything from pre-seed to pre-IPO rounds. So, there's certainly room in the Bessemer portfolio for a strong generative AI company with that revenue scale. Thank you for your question."
+
+Hi, my name is ABI, and I'm the CTO at a video AI startup. My question is regarding Bessemer's investment thesis. Specifically, I'm interested in your thoughts on thin wrapper companies around LLMS (Low-Code Machine Learning Systems) versus native LLMS companies that are building their AI stack from the ground up. While thin wrapper companies may not have many differentiators in terms of AI capabilities, they do differentiate themselves based on the applications they support. Could you please share your thought process on this?"
+
+Speaker: "I appreciate this question because it highlights a significant change in the AI landscape. This wave of AI is different because it democratizes the ability to integrate AI without needing an entirely native AI team or extensive R&D resources. Bessemer evaluates companies based on fundamental principles that have defined defensibility in the past. These include go-to-market strategies, product experience, and embedding in workflows. While AI capabilities can be a key vector, they are not the sole factor. There are multiple ways to succeed in this democratized AI landscape, and we encourage companies to focus on these fundamental principles."
+
+Speaker: "Thank you so much for the question. Great. Well, we'll be offstage, and if you have any additional questions or need to discuss topics specific to your company, please don't hesitate to reach out. We truly appreciate your time today and look forward to engaging with you further. Enjoy the rest of SaaStr. Thank you."

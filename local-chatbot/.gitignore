@@ -1,0 +1,23 @@
+# Virtual Environment
+venv/
+bin/
+lib/
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.egg-info/
+*.egg
+*.py[co]
+*.rej
+
+# IDEs
+.idea/
+.vscode/
+
+# Operating Systems
+.DS_Store
+Thumbs.db
+
