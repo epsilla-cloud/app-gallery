@@ -34,13 +34,13 @@ for msg in st.session_state.messages:
 if question := st.chat_input():
   st.session_state.messages.append({"role": "user", "content": question})
 
-  context = '\n'.join(map(lambda doc: doc.page_content, vector_store.similarity_search(question)))
+  context = '\n'.join(map(lambda doc: doc.page_content, vector_store.similarity_search(question, k = 5)))
 
   st.chat_message("user").write(question)
   prompt = f'''
-    Answer the Question below based on the given Context below. Try to understand the Context and rephrase them.
-    Please don't make things up. Ask for more information when needed.
-    
+    Answer the Question based on the given Context. Try to understand the Context and rephrase them.
+    Please don't make things up or say things not mentioned in the Context. Ask for more information when needed.
+
     Context:
     {context}
 
@@ -51,7 +51,7 @@ if question := st.chat_input():
     '''
   print(prompt)
 
-  command = ['llm', '-m', 'orca-mini-3b', prompt]
+  command = ['llm', '-m', 'llama-2-7b-chat', prompt]
   process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
   content = ''
   while True:
