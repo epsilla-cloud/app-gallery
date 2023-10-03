@@ -2,7 +2,6 @@ import torch
 from PIL import Image
 import cv2
 from transformers import AutoProcessor, CLIPModel
-from transformers import BlipProcessor, BlipForConditionalGeneration
 from pyepsilla import vectordb
 import glob
 
@@ -15,7 +14,6 @@ model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32").to(device)
 processor = AutoProcessor.from_pretrained("openai/clip-vit-base-patch32")
 
 def encode_frame(frame):
-
     image = Image.fromarray(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))
     image_input = processor(images=image, return_tensors="pt", padding=True).to(device)
     image_features = model.get_image_features(**image_input)
@@ -33,8 +31,6 @@ def extract_frames(video_name, interval=20):
         if not ret:
             break
         if frame_id % (frame_rate * interval) == 0:
-            # Save or process frame
-            # print (encode_frame(frame))
             cv2.imwrite('./screenshots/' + video_name + '_' + str(frame_id) + '.jpg', frame)
             # Save the frame to the database
             print(client.insert(

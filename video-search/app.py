@@ -1,8 +1,6 @@
-import os
 import streamlit as st
 import torch
 from PIL import Image
-import cv2
 from transformers import AutoProcessor, CLIPModel
 from pyepsilla import vectordb
 
