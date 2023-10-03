@@ -59,7 +59,7 @@ def create_vdb_schema():
             {"name": "FrameIndex", "dataType": "INT"},
             {"name": "FrameIndexPrecise", "dataType": "DOUBLE"},
             {"name": "FrameRate", "dataType": "DOUBLE"},
-            {"name": "Embedding", "dataType": "VECTOR_FLOAT", "dimensions": 512}
+            {"name": "Embedding", "dataType": "VECTOR_FLOAT", "dimensions": 512, "metricType": "COSINE"}
         ]
     )
 
@@ -70,35 +70,3 @@ if __name__ == "__main__":
         video_path = mp4_file.rsplit('/', 1)[-1]
         print ('Processing', video_path)
         extract_frames(video_path)
-
-
-# def get_image_caption(image_path):
-#     """
-#     Generates a short caption for the provided image.
-
-#     Args:
-#         image_path (str): The path to the image file.
-
-#     Returns:
-#         str: A string representing the caption for the image.
-#     """
-#     image = Image.open(image_path).convert('RGB')
-
-#     model_name = "Salesforce/blip-image-captioning-large"
-#     device = "cuda" if torch.cuda.is_available() else "cpu"
-
-#     processor = BlipProcessor.from_pretrained(model_name)
-#     model = BlipForConditionalGeneration.from_pretrained(model_name).to(device)
-
-#     inputs = processor(image, return_tensors='pt').to(device)
-#     output = model.generate(**inputs, max_new_tokens=20)
-
-#     caption = processor.decode(output[0], skip_special_tokens=True)
-
-#     return caption
-
-# get_image_caption('./screenshots/0nZQWIxsLB8.mp4_0.jpg')
-# get_image_caption('./screenshots/0nZQWIxsLB8.mp4_1.jpg')
-# get_image_caption('./screenshots/0nZQWIxsLB8.mp4_5.jpg')
-# get_image_caption('./screenshots/0nZQWIxsLB8.mp4_15.jpg')
-
