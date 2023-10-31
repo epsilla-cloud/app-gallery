@@ -92,8 +92,8 @@ if __name__ == "__main__":
   # Get Config of Vectordb on Epsilla Cloud
   config = {}
   for line in open(".env").readlines():
-    key, value = line.strip().split("=")[0], line.strip().split("=")[1]
-    config[key] = value
+    kv = line.strip().split("=")
+    config[kv[0]] = kv[1]
 
   project_id=config["PROJECT_ID"]
   db_id=config["DB_ID"]
