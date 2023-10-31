@@ -1,0 +1,127 @@
+from langchain.document_loaders import TextLoader
+from langchain.text_splitter import CharacterTextSplitter
+from langchain.vectorstores import Epsilla
+
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain.document_loaders import TextLoader
+
+
+from langchain.embeddings import OpenAIEmbeddings
+
+import openai
+
+from sentence_transformers import SentenceTransformer
+
+import os, yaml, glob, PyPDF2, pprint
+
+from pyepsilla import cloud
+
+from typing import List
+
+import pypdfium2 as pdfium
+from glob import glob
+
+
+# Extract text from pdf
+def pdf2text(pdf_path):
+  text = ''
+  pdf = pdfium.PdfDocument(pdf_path)
+  version = pdf.get_version()
+  n_pages = len(pdf)
+  for i in range(n_pages):
+    page = pdf[i]
+    textpage = page.get_textpage()
+    text += textpage.get_text_range()
+
+  return text
+
+
+# Convert text to Embedding using openai model
+def get_embedding(text, model="text-embedding-ada-002"):
+  if os.path.isfile(".env"):
+    openai.api_key_path = ".env" 
+  if os.getenv("OPENAI_API_KEY"):
+    openai.api_key = os.getenv("OPENAI_API_KEY")
+  text = text.replace("\n", " ")
+  return openai.Embedding.create(input=text, model=model)['data'][0]['embedding']
+
+
+# Convert text to Embedding
+def text2embedding(text=None, pdf_name=None):
+  with open("out.txt", 'w') as text_file:
+      text_file.write(text)
+  doc_loader = TextLoader("out.txt")
+  documents = doc_loader.load()
+  documents.metadata={"source": pdf_name}
+
+  text_splitter = RecursiveCharacterTextSplitter(chunk_size=300, chunk_overlap=0, separators=["\n", "\n\n"])
+  texts = text_splitter.split_documents(documents)
+  
+  embeddings=[]
+  contexts=[]
+  length = len(texts)
+
+  for i in range(length):
+    text_str = texts[i].page_content
+    embedding = get_embedding(text_str, model="text-embedding-ada-002")
+    embeddings.append(embedding)
+    contexts.append( ''.join([texts[k].page_content for k in range(max(0, i-1), min(i+2, length))]) )
+
+  return embeddings, contexts
+
+
+# Store Embedding to Epsilla Cloud
+def store2vectordb(records, table_name, db_id, project_id, api_key):
+  # Connect to Epsilla Cloud
+  client = cloud.Client(project_id, api_key)
+  db = client.vectordb(db_id)
+  status_code, response = db.insert( table_name=table_name, records=records)
+  print(response)
+  return status_code, response
+
+
+
+
+
+
+
+
+
+
+if __name__ == "__main__":
+  # Get Config of Vectordb on Epsilla Cloud
+  config = {}
+  for line in open(".env").readlines():
+    key, value = line.strip().split("=")[0], line.strip().split("=")[1]
+    config[key] = value
+
+  project_id=config["PROJECT_ID"]
+  db_id=config["DB_ID"]
+  table_name=config["TABLE_NAME"]
+  api_key=config["EPSILLA_API_KEY"]
+
+
+  record_num_total = 0
+
+  # Get list of all pdf files in "./documents/"
+  files = glob("./documents/*.pdf")
+  
+  for pdf in files:
+    pdf_name = os.path.basename(pdf)
+
+    # Extrace text from pdf
+    text = pdf2text(pdf)
+
+    # Convert text to embedding
+    embeddings, contexts = text2embedding(text, pdf_name)
+
+    # Prepare record
+    records = [ {"id": record_num_total+i+1, "doctitle": pdf_name, "embedding": embeddings[i], "context": contexts[i]} for i in range(len(embeddings))]
+
+    # Store records to epsilla cloud vectordb
+    store2vectordb(records, table_name, db_id, project_id, api_key)
+
+    # Accumulate the record num
+    record_num_total += len(embeddings)
+    print("record_num_total:", record_num_total)
+
