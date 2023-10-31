@@ -1,25 +1,12 @@
 from langchain.document_loaders import TextLoader
-from langchain.text_splitter import CharacterTextSplitter
-from langchain.vectorstores import Epsilla
-
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.document_loaders import TextLoader
-
-
-from langchain.embeddings import OpenAIEmbeddings
-
-import openai
-
-from sentence_transformers import SentenceTransformer
-
-import os, yaml, glob, PyPDF2, pprint
-
+import os, openai
+from glob import glob
+import pypdfium2 as pdfium
 from pyepsilla import cloud
 
-from typing import List
 
-import pypdfium2 as pdfium
-from glob import glob
 
 
 # Extract text from pdf
