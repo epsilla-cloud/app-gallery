@@ -37,6 +37,7 @@ def pdf2text(pdf_path):
 
 
 # Convert text to Embedding using openai model
+# https://openai.com/blog/function-calling-and-other-api-updates
 def get_embedding(text, model="text-embedding-ada-002"):
   if os.path.isfile(".env"):
     openai.api_key_path = ".env" 
