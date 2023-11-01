@@ -12,7 +12,11 @@ pip install pypdfium2
 pip install numexpr
 ```
 
-## Step 2. Prepare an .env file in the folder, with the following content (replace the keys)
+## Step 2. On Epsilla Cloud, create a vector DB and a vector table. The table needs to follow this schema:
+
+![Vector table schema](doc-agent-table-name.png)
+
+## Step 3. Prepare an .env file in the folder, with the following content (replace the keys)
 
 ```
 OPENAI_KEY=<YOUR OPEN AI KEY>
@@ -22,15 +26,15 @@ DB_ID=<YOUR EPSILLA CLOUD VECTOR DB ID>
 TABLE_NAME=<YOUR EPSILLA CLOUD VECTOR DB'S TABLE NAME>
 ```
 
-## Step 3. Move all PDF files under ./documents/ folder
+## Step 4. Move all PDF files under ./documents/ folder
 
-## Step 4. Learn all the documents
+## Step 5. Learn all the documents
 
 ```
 python learn.py
 ```
 
-## Step 5. Run the app
+## Step 6. Run the app
 
 ```
 streamlit run app.py
