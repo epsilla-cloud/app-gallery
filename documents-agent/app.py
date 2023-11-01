@@ -1,4 +1,7 @@
 import streamlit as st
+from docagent import DocAgent
+
+agent = DocAgent()
 
 st.title("💬 Document Agent")
 if "messages" not in st.session_state:
@@ -13,6 +16,6 @@ if question := st.chat_input():
 
   st.chat_message("user").write(question)
 
-  msg = { 'role': 'assistant', 'content': '<THE RESPONSE>' }
+  msg = { 'role': 'assistant', 'content': agent.solve(question) }
   st.session_state.messages.append(msg)
   st.chat_message("assistant").write(msg['content'])
