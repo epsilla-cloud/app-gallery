@@ -38,4 +38,4 @@ streamlit run app.py
 
 ## Here is an example question & answer
 
-
+![Demo GIF](docue_demo.gif)
