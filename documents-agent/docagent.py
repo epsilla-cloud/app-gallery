@@ -1,3 +1,4 @@
+from glob import glob
 from langchain.agents import load_tools
 from langchain.agents import initialize_agent
 from langchain.agents import AgentType
@@ -44,6 +45,15 @@ class DocAgent:
         self.agent_executor = initialize_agent(
             tools, llm, agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION, verbose=True
         )
+    
+    def list_docs(self):
+        # List PDF files under ./documents/ folder
+        ret = []
+        files = glob("./documents/*.pdf")
+        for pdf in files:
+            ret.append(os.path.basename(pdf))
+        return ret
+  
 
     def solve(self, question):
         response = self.agent_executor.invoke(
@@ -52,6 +62,90 @@ class DocAgent:
             }
         )
         return response['output']
+    
+    def rephrase(self, question):
+        return retrieval.rephrase(question=question)
+    
+    def solve_one(self, file, question, questions):
+        # Step 1. Search the relevant information from the document to answer the question.
+        query_score_dict = {}
+        item = retrieval.vector_search_one_doc(db, question, file)
+        # print(item)
+        query_score_dict[question] = item
+        for q in questions:
+          item = retrieval.vector_search_one_doc(db, q, file)
+          query_score_dict[q] = item
+        # print(query_score_dict)
+
+        ranking_result = retrieval.ranking_fusion(original_query=question, query_score_dict=query_score_dict)
+        context = retrieval.generate_content_based_on_ranking(ranking_result)
+
+        # Step 2. Use the prompt to answer the question for the document.
+        openai.api_key = os.getenv("OPENAI_KEY")
+        response = openai.ChatCompletion.create(
+          model="gpt-4",
+          messages=[
+            {
+              "role": "system",
+              "content": "You are an assistant answering questions for a given document."
+            },
+            {
+              "role": "user",
+              "content": f'''
+                Answer the Question based on the given Context. Please don't make things up. Ask for more information when needed.
+
+                Context:
+                {context}
+
+                Question:
+                {question}
+
+                Answer:
+                Let's work this out in a step by step way to be sure we have the right answer.
+                '''
+            }
+          ],
+          temperature=0,
+          max_tokens=256,
+          top_p=1,
+          frequency_penalty=0,
+          presence_penalty=0
+        )
+
+        return response['choices'][0]['message']['content']
+
+    def summary(self, file, question, concated):
+        openai.api_key = os.getenv("OPENAI_KEY")
+        response = openai.ChatCompletion.create(
+          model="gpt-4",
+          messages=[
+            {
+              "role": "system",
+              "content": "You are an assistant answering questions for a given document."
+            },
+            {
+              "role": "user",
+              "content": f'''
+                Answer the Question based on the Analysis Of Each Document. If some documents are not related to the question, please ignore them.
+
+                Analysis Of Each Document:
+                {concated}
+
+                Question:
+                {question}
+
+                Answer:
+                '''
+            }
+          ],
+          temperature=0,
+          max_tokens=256,
+          top_p=1,
+          frequency_penalty=0,
+          presence_penalty=0
+        )
+
+        return response['choices'][0]['message']['content']
     
     def can_loop(self, question):
         openai.api_key = os.getenv("OPENAI_KEY")
@@ -77,7 +171,8 @@ class DocAgent:
         return decision == 'YES'
 
 
-
+# agent = DocAgent()
+# print(agent.list_docs())
 
 
 

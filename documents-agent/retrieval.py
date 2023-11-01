@@ -56,7 +56,27 @@ class Retrieval:
     status_code, response = db.query(table_name=os.getenv("TABLE_NAME"),
       query_field="embedding",
       query_vector=query_vector,
-      limit=20,
+      limit=5,
+      response_fields=["id", "doctitle", "context"],
+      with_distance=True
+    )
+    if status_code != 200:
+      raise Exception(response["message"])
+
+    return response["result"]
+  
+  def vector_search_one_doc(self, db: Any, question: str, doc_file: str):
+    result = openai.Embedding.create(
+      input=question,
+      model="text-embedding-ada-002"
+    )
+
+    query_vector = result["data"][0]["embedding"]
+    status_code, response = db.query(table_name=os.getenv("TABLE_NAME"),
+      query_field="embedding",
+      query_vector=query_vector,
+      filter="doctitle = '" + doc_file + "'",
+      limit=5,
       response_fields=["id", "doctitle", "context"],
       with_distance=True
     )
@@ -100,7 +120,7 @@ class Retrieval:
     # print(fused_ranking)
     result = []
     sorted_ranking = sorted(fused_ranking.items(), key=lambda item: item[1]["score"])
-    for i in range(limit):
+    for i in range(min(limit, len(sorted_ranking))):
       result.append(sorted_ranking[i][1]["item"])
 
     return result
@@ -130,7 +150,7 @@ if __name__ == "__main__":
     question = "Find contracts that mention limitations of liability"
 
     qs = retrieval.rephrase(question=question)
-    print(qs)
+    # print(qs)
 
     client = cloud.Client(
       project_id=os.getenv("PROJECT_ID"),

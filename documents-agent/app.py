@@ -2,6 +2,7 @@ import streamlit as st
 from docagent import DocAgent
 
 agent = DocAgent()
+all_docus = agent.list_docs()
 
 st.title("💬 Document Agent")
 if "messages" not in st.session_state:
@@ -16,12 +17,29 @@ if question := st.chat_input():
 
   st.chat_message("user").write(question)
 
-  prompt = f'''You are an agent to help answering questions from a large set of documents.
-  Pay attention to the document title and relevant content from search to answer the question.
+  if agent.can_loop(question):
+    # Loop through each document
+    questions = agent.rephrase(question)
+    concated = ''
+    for file in all_docus:
+      print('Processing ' + file)
+      result = file + ": " + agent.solve_one(file, question, questions)
+      concated += result + '\n\n\n'
+      msg = { 'role': 'assistant', 'content': result }
+      st.session_state.messages.append(msg)
+      st.chat_message("assistant").write(msg['content'])
+    # Compose final summary result
+    print('Final result')
+    msg = { 'role': 'assistant', 'content': 'Final Answer: ' + agent.summary(question, concated) }
+    st.session_state.messages.append(msg)
+    st.chat_message("assistant").write(msg['content'])
+  else:
+    prompt = f'''You are an agent to help answering questions from a large set of documents.
+    Pay attention to the document title and relevant content from search to answer the question.
 
-  Question: {question}
-  '''
+    Question: {question}
+    '''
 
-  msg = { 'role': 'assistant', 'content': agent.solve(prompt) }
-  st.session_state.messages.append(msg)
-  st.chat_message("assistant").write(msg['content'])
+    msg = { 'role': 'assistant', 'content': agent.solve(prompt) }
+    st.session_state.messages.append(msg)
+    st.chat_message("assistant").write(msg['content'])
