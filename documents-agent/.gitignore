@@ -1,0 +1,28 @@
+# Virtual Environment
+myenv/
+bin/
+lib/
+etc/
+share/
+documents/
+
+.env
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.egg-info/
+*.egg
+*.py[co]
+*.rej
+
+# IDEs
+.idea/
+.vscode/
+
+# Operating Systems
+.DS_Store
+Thumbs.db
+
