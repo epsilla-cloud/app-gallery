@@ -16,6 +16,12 @@ if question := st.chat_input():
 
   st.chat_message("user").write(question)
 
-  msg = { 'role': 'assistant', 'content': agent.solve(question) }
+  prompt = f'''You are an agent to help answering questions from a large set of documents.
+  Pay attention to the document title and relevant content from search to answer the question.
+
+  Question: {question}
+  '''
+
+  msg = { 'role': 'assistant', 'content': agent.solve(prompt) }
   st.session_state.messages.append(msg)
   st.chat_message("assistant").write(msg['content'])
