@@ -22,12 +22,18 @@ if question := st.chat_input():
     questions = agent.rephrase(question)
     concated = ''
     for file in all_docus:
-      print('Processing ' + file)
-      result = file + ": " + agent.solve_one(file, question, questions)
-      concated += result + '\n\n\n'
-      msg = { 'role': 'assistant', 'content': result }
-      st.session_state.messages.append(msg)
-      st.chat_message("assistant").write(msg['content'])
+      for retry in range(5):
+        try:
+          print('Processing ' + file)
+          result = file + ": " + agent.solve_one(file, question, questions)
+          concated += result + '\n\n\n'
+          msg = { 'role': 'assistant', 'content': result }
+          st.session_state.messages.append(msg)
+          st.chat_message("assistant").write(msg['content'])
+          break
+        except Exception as e:
+          print('Retrying ' + file)
+          pass
     # Compose final summary result
     print('Final result')
     msg = { 'role': 'assistant', 'content': 'Final Answer: ' + agent.summary(question, concated) }

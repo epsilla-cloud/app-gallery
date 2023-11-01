@@ -114,7 +114,7 @@ class DocAgent:
 
         return response['choices'][0]['message']['content']
 
-    def summary(self, file, question, concated):
+    def summary(self, question, concated):
         openai.api_key = os.getenv("OPENAI_KEY")
         response = openai.ChatCompletion.create(
           model="gpt-4",
