@@ -1,6 +1,6 @@
-### Question And Answer Against A Set Of Documents
+# Question And Answer Against A Set Of Documents
 
-# Step 1. Install the following python libraries
+## Step 1. Install the following python libraries
 
 ```
 pip install streamlit
@@ -12,7 +12,7 @@ pip install pypdfium2
 pip install numexpr
 ```
 
-# Step 2. Prepare an .env file in the folder, with the following content (replace the keys)
+## Step 2. Prepare an .env file in the folder, with the following content (replace the keys)
 
 ```
 OPENAI_KEY=<YOUR OPEN AI KEY>
@@ -22,14 +22,20 @@ DB_ID=<YOUR EPSILLA CLOUD VECTOR DB ID>
 TABLE_NAME=<YOUR EPSILLA CLOUD VECTOR DB'S TABLE NAME>
 ```
 
-# Step 3. Move all PDF files under ./documents/ folder
+## Step 3. Move all PDF files under ./documents/ folder
 
-# Step 4. Run the app
+## Step 4. Learn all the documents
+
+```
+python learn.py
+```
+
+## Step 5. Run the app
 
 ```
 streamlit run app.py
 ```
 
-# Here is an example question & answer
+## Here is an example question & answer
 
 
