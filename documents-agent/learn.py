@@ -1,11 +1,15 @@
-from langchain.document_loaders import TextLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.document_loaders import TextLoader
+#!/usr/bin/env python
+# -*- coding:utf-8 -*-
+
 import os, sys, openai
 from dotenv import load_dotenv
 from glob import glob
 import pypdfium2 as pdfium
 from pyepsilla import cloud
+
+# from langchain.document_loaders import TextLoader
+from langchain.docstore.document import Document
+from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 
 
@@ -33,12 +37,7 @@ def get_embedding(text, model="text-embedding-ada-002"):
 
 # Convert text to Embedding
 def text2embedding(text=None, pdf_name=None):
-  with open("out.txt", 'w') as text_file:
-      text_file.write(text)
-  doc_loader = TextLoader("out.txt")
-  documents = doc_loader.load()
-  for doc in documents:
-    doc.metadata={"source": pdf_name}
+  documents = [Document(page_content=text, metadata={"source": pdf_name})]
 
   text_splitter = RecursiveCharacterTextSplitter(chunk_size=300, chunk_overlap=100, separators=["\n", "\n\n"])
   texts = [i.page_content for i in text_splitter.split_documents(documents)]
@@ -91,7 +90,7 @@ if __name__ == "__main__":
   # Get list of all pdf files in "./documents/"
   files = glob("./documents/*.pdf")
   
-  for pdf in files:
+  for pdf in files[:1]:
     pdf_name = os.path.basename(pdf)
 
     # Extrace text from pdf
