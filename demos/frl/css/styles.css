@@ -1,0 +1,33 @@
+        .jumbotron {
+            background-image: url('../frl-bg-image.jpg');
+            background-size: cover;
+            color: #0056b3;
+            padding: 100px 0;
+        }
+        .bg-blue {
+            background-color: #0056b3;
+        }
+        .mission-section {
+            background-color: #f8f9fa;
+            padding: 50px 0;
+        }
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+        }
+        .logo {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: #0056b3;
+            border-radius: 50%;
+        }
+		
+		.resource-title {
+            color: #0056b3; /* This is the same blue color used for the background */
+       }
