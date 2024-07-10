@@ -31,3 +31,9 @@
 		.resource-title {
             color: #0056b3; /* This is the same blue color used for the background */
        }
+	   
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }	   
