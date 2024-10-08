@@ -1,0 +1,21 @@
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td {
+            padding: 5px;
+            vertical-align: top;
+        }
+        .image-cell {
+            width: 15%;
+        }
+				.label-cell {
+            width: 10%;
+						font-weight: bold;
+        }
+        .content-cell {
+            width: 80%;
+        }
