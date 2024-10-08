@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Catalog Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        #search-form {
+            display: flex;
+            margin-bottom: 20px;
+        }
+        #search-input {
+            flex-grow: 1;
+            padding: 10px;
+            font-size: 16px;
+        }
+        #search-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #0b6ee6;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .result {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        .result h3 {
+            margin-top: 0;
+        }
+        .snippet {
+            font-style: italic;
+            color: #555;
+        }
+        a {
+            color: #1E90FF;
+        }
+    </style>
+</head>
+<body>
+    <h1>Library Catalog Search</h1>
+    <div id="search-form">
+        <input type="text" id="search-input" placeholder="Enter your search term">
+        <button id="search-button">Search</button>
+    </div>
+    <div id="results"></div>
+
+    <script>
+        document.getElementById('search-button').addEventListener('click', performSearch);
+        document.getElementById('search-input').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                performSearch();
+            }
+        });
+
+        function performSearch() {
+            const query = document.getElementById('search-input').value;
+            fetch(`/search?query=${encodeURIComponent(query)}`)
+                .then(response => response.json())
+                .then(data => {
+                    const resultsDiv = document.getElementById('results');
+                    resultsDiv.innerHTML = '';
+                    if (data.length === 0) {
+                        resultsDiv.innerHTML = '<p>No results found.</p>';
+                    } else {
+                        data.forEach(result => {
+                            const resultDiv = document.createElement('div');
+                            resultDiv.className = 'result';
+                            resultDiv.innerHTML = `
+                              <!--  <h3><a href=\"${result.filename}\">${result.filename}</a></h3>  -->
+                              <!--    <h3><a href=\"https://app-gallery-indol.vercel.app/frl/index.html\">${result.filename}</a></h3> -->
+                              <h3><a href=\"https://app-gallery-indol.vercel.app/frl/catalog/rec/${result.filename}\">${result.filename}</a></h3>
+                                <p class="snippet">${result.snippet}</p>
+                                <p>Path: ${result.filepath}</p>
+                            `;
+                            resultsDiv.appendChild(resultDiv);
+                        });
+                    }
+                })
+                .catch(error => console.error('Error:', error));
+        }
+    </script>
+</body>
+</html>
