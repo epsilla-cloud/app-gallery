@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 
 app = Flask(__name__)
 
-WEBPAGES_DIRECTORY = '../rec'  # Change this to your actual directory path
+WEBPAGES_DIRECTORY = 'rec'  # Change this to your actual directory path
 
 def search_webpages(search_term):
     results = []
