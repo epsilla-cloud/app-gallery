@@ -36,4 +36,34 @@
             display: flex;
             justify-content: center;
             margin-top: 20px;
-        }	   
+        }	
+
+        .page-header-about {
+		    background-image: url('../frl-bg-image7.jpg');
+            background-size: cover;
+			padding: 50px 0;
+		}
+
+        .page-header-services {
+		    background-image: url('../frl-bg-image14.jpg');
+            background-size: cover;
+			padding: 50px 0;
+		}
+
+        .page-header-guides {
+		    background-image: url('../frl-bg-image15.jpg');
+            background-size: cover;
+			padding: 50px 0;
+		}
+
+        .page-header-speccoll {
+		    background-image: url('../frl-bg-image5.jpg');
+            background-size: cover;
+			padding: 50px 0;
+		}
+
+        .page-header-catalog {
+		    background-image: url('../frl-bg-image18.jpg');
+            background-size: cover;
+			padding: 50px 0;
+		}

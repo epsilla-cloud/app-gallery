@@ -17,6 +17,9 @@
 									"<a class=\"nav-link\" href=\"./../../services.html\">Services</a>" +
 								"</li>" +
 								"<li class=\"nav-item\">" +
+									"<a class=\"nav-link\" href=\"./../../library_catalog.html\">Library Catalog</a>" +
+								"</li>" +
+								"<li class=\"nav-item\">" +
 									"<a class=\"nav-link\" href=\"./../../guides.html\">Research Guides</a>" +
 								"</li>" +
 								"<li class=\"nav-item\">" +																
