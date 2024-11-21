@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Programming Books Collection</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@panzoom/panzoom/dist/panzoom.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 24px;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f9;
+        }
+        #diagram-container {
+            width: 90%;
+            height: 90vh;
+            margin: auto;
+            border: 1px solid #ccc;
+            overflow: hidden;
+            position: relative;
+        }
+        .mermaid {
+            font-size: 24px;
+            cursor: grab;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            // Initialize Mermaid
+            mermaid.initialize({ startOnLoad: true });
+
+            // Add Panzoom to Mermaid Diagram
+            const container = document.getElementById('diagram-container');
+            const mermaidDiagram = document.getElementById('mermaid-diagram');
+            const panzoom = Panzoom(mermaidDiagram, {
+                contain: 'outside',
+                maxScale: 3,
+                minScale: 1
+            });
+
+            // Add zoom with mouse wheel
+            container.addEventListener('wheel', panzoom.zoomWithWheel);
+
+            // Track zoom toggle state
+            let isZoomedIn = false;
+
+            // Add double-click functionality to zoom into blocks
+            mermaidDiagram.addEventListener('dblclick', (event) => {
+                const target = event.target;
+                if (target.classList.contains('node')) {
+                    const rect = target.getBoundingClientRect();
+                    const containerRect = container.getBoundingClientRect();
+
+                    // Calculate offsets to center the clicked block
+                    const offsetX = containerRect.width / 2 - (rect.left + rect.width / 2);
+                    const offsetY = containerRect.height / 2 - (rect.top + rect.height / 2);
+
+                    if (!isZoomedIn) {
+                        // Zoom in and center on the block
+                        panzoom.zoom(2); // Adjust zoom level
+                        panzoom.pan(offsetX, offsetY);
+                    } else {
+                        // Zoom out to the default view
+                        panzoom.reset();
+                    }
+
+                    // Toggle the zoom state
+                    isZoomedIn = !isZoomedIn;
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="diagram-container">
+        <div id="mermaid-diagram" class="mermaid">
+            %%{init: {'theme': 'default', 'themeVariables': { 'fontSize': '24px' }}}%%
+            graph TD
+                Root[Programming Books Collection] --> Languages[Programming Languages]
+                Root --> Web[Web Development]
+                Root --> Hardware[Hardware & IoT]
+                Root --> Education[Educational Resources]
+                Languages --> Python[Python Books]
+                Python --> PCC["Python Crash Course<br>ISBN: 1593279280<br><a href='https://app-gallery-indol.vercel.app/frl/catalog/rec/22580.html' target='_blank'>View Book</a>"]
+                Python --> PAO["Python All-in-One For Dummies<br>ISBN: 1119557593<br><a href='https://app-gallery-indol.vercel.app/frl/catalog/rec/21746.html' target='_blank'>View Book</a>"]
+                Python --> BPP["Beginning Programming with Python<br>ISBN: 1119457890<br><a href='https://app-gallery-indol.vercel.app/frl/catalog/rec/19203.html' target='_blank'>View Book</a>"]
+                Web --> WP[WordPress]
+                Web --> Frontend[Frontend Development]
+                WP --> WPEasy["WordPress in Easy Steps<br>ISBN: 1840788534<br><a href='https://app-gallery-indol.vercel.app/frl/catalog/rec/22645.html' target='_blank'>View Book</a>"]
+                Frontend --> HTMLBook["HTML, CSS & JavaScript All in One<br>ISBN: 9780672338083<br><a href='https://app-gallery-indol.vercel.app/frl/catalog/rec/17492.html' target='_blank'>View Book</a>"]
+                Hardware --> Arduino[Arduino]
+                Hardware --> RaspPi[Raspberry Pi]
+                Arduino --> ExpArduino["Exploring Arduino<br>ISBN: 9781119405375<br><a href='https://app-gallery-indol.vercel.app/frl/catalog/rec/23132.html' target='_blank'>View Book</a>"]
+                RaspPi --> HomeAuto["Home Automation with Raspberry Pi<br>ISBN: 9781260440355<br><a href='https://app-gallery-indol.vercel.app/frl/catalog/rec/19002.html' target='_blank'>View Book</a>"]
+                Education --> Kids[Kids Programming]
+                Education --> Begin[Beginner Resources]
+                Kids --> HelpKids["Helping Kids with Coding<br>ISBN: 1119380677<br><a href='https://app-gallery-indol.vercel.app/frl/catalog/rec/18155.html' target='_blank'>View Book</a>"]
+                Begin --> Begin24["Beginning Programming in 24 Hours<br>ISBN: 9780135836705<br><a href='https://app-gallery-indol.vercel.app/frl/catalog/rec/23616.html' target='_blank'>View Book</a>"]
+                Root --> VersionControl[Version Control]
+                VersionControl --> GitHubDummies["GitHub For Dummies<br>ISBN: 1119572673<br><a href='https://app-gallery-indol.vercel.app/frl/catalog/rec/21779.html' target='_blank'>View Book</a>"]
+                style Root fill:#f5f5f5,stroke:#333,stroke-width:2px
+                style Languages fill:#e1f5fe,stroke:#333
+                style Web fill:#e8f5e9,stroke:#333
+                style Hardware fill:#fff3e0,stroke:#333
+                style Education fill:#f3e5f5,stroke:#333
+                style VersionControl fill:#ffebee,stroke:#333
+                classDef available fill:#c8e6c9,stroke:#333
+                classDef dueOut fill:#ffcdd2,stroke:#333
+                class WPEasy,HTMLBook,HomeAuto available
+                class PCC,BPP,ExpArduino,HelpKids dueOut
+        </div>
+    </div>
+</body>
+</html>
