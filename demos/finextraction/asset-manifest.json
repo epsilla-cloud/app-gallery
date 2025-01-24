@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/finextraction/static/css/main.87c8eb1b.css",
-    "main.js": "/finextraction/static/js/main.57e0a204.js",
+    "main.css": "/finextraction/static/css/main.421b0293.css",
+    "main.js": "/finextraction/static/js/main.c1972d05.js",
     "static/js/453.2a3d3e19.chunk.js": "/finextraction/static/js/453.2a3d3e19.chunk.js",
     "index.html": "/finextraction/index.html",
-    "main.87c8eb1b.css.map": "/finextraction/static/css/main.87c8eb1b.css.map",
-    "main.57e0a204.js.map": "/finextraction/static/js/main.57e0a204.js.map",
+    "main.421b0293.css.map": "/finextraction/static/css/main.421b0293.css.map",
+    "main.c1972d05.js.map": "/finextraction/static/js/main.c1972d05.js.map",
     "453.2a3d3e19.chunk.js.map": "/finextraction/static/js/453.2a3d3e19.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.87c8eb1b.css",
-    "static/js/main.57e0a204.js"
+    "static/css/main.421b0293.css",
+    "static/js/main.c1972d05.js"
   ]
 }
